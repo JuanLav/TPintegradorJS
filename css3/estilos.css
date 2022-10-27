@@ -1,0 +1,83 @@
+/* estilos personalizados complementarios a los de bootstrap */
+/* Ejercicio integrador comisión 22585 Curso Full Stack PHP - Juan Lavric 2022-09-20 */
+
+h5 {
+  margin-top: 32px;
+}
+
+#columna {
+  width:50%;
+}
+
+#nav_menu {
+  background-color: #344;
+}
+
+.menu {
+  background-color:#246;
+  margin-top: 20px;
+  padding-left:15%;
+  padding-right:15%;
+}
+
+ /* Bootstrap: ver scrollspy | ver Utilities*/
+
+.degrade {
+  background: black;
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.centered {
+  text-align: right;
+  padding: 0.5em;
+}
+
+.text_left {
+  text-align: left;
+  padding: 0.5em;
+}
+
+.text_right {
+  position: inherit;
+  left: 40%;
+  font-size: 1.5vw;
+}
+
+.text_bottom {
+  position: relative;
+  bottom: -35%;
+}
+
+.aligned_left {
+  text-align: left;
+  padding: 0em;
+}
+
+.degrade 
+.deg_pos {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  padding: 10px 15px;
+  color: white;
+  font-size: 1.1em;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.div_double {
+  /*da color de fondo al div que contiene la imagen de honolulu y el texto */
+  background-color: #333;
+  max-width: auto;
+  min-width: 300;
+}
+
+.botonEnviar {
+  /*redefine el color del botón enviar*/
+  background-color: lightgreen !important;
+  border-color: lightgreen !important;
+}
